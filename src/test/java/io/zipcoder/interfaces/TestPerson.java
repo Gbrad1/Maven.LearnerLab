@@ -11,11 +11,6 @@ public class TestPerson {
     private static final Logger LOGGER = Logger.getLogger(TestPerson.class.getName());
     Person cPerson = new Person();
 
-    @Before
-    public void setupTestCase() {
-
-    }
-
     @Test
     public void personConstructorTest() {
         Long expectedId = 0000L;
