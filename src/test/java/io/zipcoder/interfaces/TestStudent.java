@@ -3,11 +3,8 @@ package io.zipcoder.interfaces;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.logging.Logger;
-
 public class TestStudent {
-    private static final Logger LOGGER = Logger.getLogger(TestStudent.class.getName());
-    Student cStudent = new Student();
+    Student cStudent = new Student(1L, "Sian");
 
     @Test
     public void testImplementation() {

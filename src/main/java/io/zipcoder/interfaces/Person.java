@@ -1,8 +1,8 @@
 package io.zipcoder.interfaces;
 
 public class Person {
-    final Long id;
-    String name;
+    private final Long id;
+    private String name;
 
     public Person(Long newId, String newName) {
         this.id = newId;
@@ -11,7 +11,7 @@ public class Person {
 
     public Person() {
         this.name = "template";
-        this.id = 0000L;
+        this.id = 0L;
     }
 
     public Long getId() {

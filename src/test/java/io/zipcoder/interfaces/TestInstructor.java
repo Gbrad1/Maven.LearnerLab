@@ -7,9 +7,9 @@ import java.util.logging.Logger;
 
 public class TestInstructor {
     private static final Logger LOGGER = Logger.getLogger(TestStudent.class.getName());
-    Student cStudent = new Student();
-    Student cStudent1 = new Student();
-    Instructor cInstructor = new Instructor();
+    Student cStudent = new Student(1L, "Jimmy");
+    Student cStudent1 = new Student(2L, "Timmy");
+    Instructor cInstructor = new Instructor(1L, "Sian");
     Learner[] listOfStudents = {cStudent, cStudent1};
 
 
