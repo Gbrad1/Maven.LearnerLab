@@ -6,8 +6,7 @@ public enum Educator implements Teacher {
     NOBLES(new Instructor(2L, "Nobles")),
     ROBERTO(new Instructor(3L, "Roberto")),
     FROILAN(new Instructor(4L, "Froilan")),
-    SIAN(new Instructor(5L, "Sian")),
-    ;
+    SIAN(new Instructor(5L, "Sian"));
 
     final private Instructor instructor;
     double timeWorked;
